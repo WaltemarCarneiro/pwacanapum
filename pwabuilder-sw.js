@@ -5,8 +5,8 @@ self.addEventListener('install', function(event){
         caches.open(cacheName).then(function (cache){
             cache.addAll([
                 './',
-                './index.html',
-                './manifest.webmanifest',
+                'https://appcanapum.blogspot.com/index.html',
+                'https://raw.githubusercontent.com/WaltemarCarneiro/pwacanapum/main/manifest.json',
                 './index.js'
             ])
         })
