@@ -1,4 +1,4 @@
-const cacheName = 'AppCanapum'
+const cacheName = 'portfolio'
 
 self.addEventListener('install', function(event){
     event.waitUntil(
