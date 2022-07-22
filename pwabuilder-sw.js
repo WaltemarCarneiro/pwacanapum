@@ -7,7 +7,7 @@ self.addEventListener('install', function(event){
                 './',
                 'https://appcanapum.blogspot.com/index.html',
                 'https://raw.githubusercontent.com/WaltemarCarneiro/pwacanapum/main/manifest.json',
-                './index.js'
+                'https://raw.githubusercontent.com/WaltemarCarneiro/pwacanapum/main/index.js'
             ])
         })
     )
